@@ -1,0 +1,121 @@
+.home-button-adjust-search-book-page{
+
+    margin-left: 0;
+    margin-top: 0;
+    margin-right: 80px;
+
+    width: 125px;
+    height: 38px;
+    background-color: #26385c;
+    color: white;
+    border-radius:7px;
+    border: 1px solid #ccc;
+    transition: transform 0.2s ease;
+}
+
+.home-button-adjust-search-book-page:hover{
+  background-color: #33528f;
+  transform: scale(1.05);
+  cursor: pointer;
+  
+  }
+
+
+.search-button-adjust-search-book-page{
+  margin-left: 15px;
+  margin-top: 0;
+  margin-right: 80px;
+
+  width: 125px;
+  height: 38px;
+  background-color: #26385c;
+  color: white;
+  border-radius:7px;
+  border: 1px solid #ccc;
+  transition: transform 0.2s ease;
+}
+
+
+.search-button-adjust-search-book-page:hover{
+  background-color: #33528f;
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+.logout-button-adjust-search-book-page{
+  margin-left: 30px;
+  margin-top: 0;
+  margin-right: 80px;
+
+  width: 125px;
+  height: 38px;
+  background-color: #26385c;
+  color: white;
+  border-radius:7px;
+  border: 1px solid #ccc;
+  transition: transform 0.2s ease;
+}
+
+.logout-button-adjust-search-book-page:hover{
+  background-color: #33528f;
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+
+
+.form-control-search-book {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10px;
+  /* border: 2px solid black; */
+  }
+  
+  .form-control-search-book label {
+  width: 20%;
+  padding-right: 0px;
+  margin-bottom: 5px;
+  color: black;
+  /* border: 2px solid green; */
+  }
+  
+  .form-control-search-book input[type="text"]{
+  
+  margin-right: 15px;
+  width: 15%;
+  height: 25px;
+  padding: 7px;
+  border-radius: 8px;
+  border: 2px solid #ccc;
+  outline: none;
+  }
+
+
+.ssearch-book-styled-table {
+
+    border-collapse: collapse;
+    width: 93%;
+    margin-top: 30px;
+    margin-left: 40px;
+    border: 2px solid green;
+    
+  }
+  
+  .ssearch-book-styled-table thead th {
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .ssearch-book-styled-table tbody td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .ssearch-book-styled-table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+
+ 
+  

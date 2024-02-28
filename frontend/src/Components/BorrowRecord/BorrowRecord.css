@@ -1,0 +1,124 @@
+
+.borrow-record-form-adjust{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    border-bottom: 9px solid #cccccc96;
+    border-radius: 30px;
+  
+}
+
+.borrow-record-logout-button{
+    width: 125px;
+    height: 38px;
+    background-color: #293a5a;
+    color: white;
+    border-radius:7px;
+    border: 1px solid #ccc;
+    transition: transform 0.2s ease;
+    /* margin-right: 30px; */
+    margin-left: 80px;
+
+    
+    /* border: 3px solid red; */
+}
+
+
+.borrow-record-logout-button:hover{
+  background-color: #33528f;
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+
+.borrow-record-adjust-text{
+  padding-top: 25px;
+  padding-right: 30px;
+  /* border: 2px solid green; */
+}
+
+.borrowings-text-adjust{
+  margin-left: 40px;
+}
+
+.borrow-record-form-adjust input[type="text"]{
+  margin-top: 27px;
+width: 15%;
+padding: 7px;
+border-radius: 8px;
+border: 2px solid #ccc;
+outline: none;
+}
+
+.borrow-record-home-button{
+
+  width: 125px;
+  height: 38px;
+  background-color: #293a5a;
+  color: white;
+  border-radius:7px;
+  border: 1px solid #ccc;
+  transition: transform 0.2s ease;
+  margin-right: 120px;
+  /* border: 3px solid red; */
+}
+
+
+.borrow-record-home-button:hover{
+  background-color: #3e5e9e;
+  transform: scale(1.05);
+  cursor: pointer;
+  
+  }
+
+
+  .borrow-record-getRecord-button{
+  
+    width: 125px;
+    height: 38px;
+    background-color: #293a5a;
+    color: white;
+    border-radius:7px;
+    border: 1px solid #ccc;
+    transition: transform 0.2s ease;
+    /* border: 3px solid red; */
+  }
+  
+  
+  .borrow-record-getRecord-button:hover{
+    background-color: #3e5e9e;
+    transform: scale(1.05);
+    cursor: pointer;
+    
+    }
+
+
+
+.styled-table {
+
+    border-collapse: collapse;
+    width: 93%;
+    margin-top: 30px;
+    margin-left: 40px;
+    border: 2px solid green;
+  }
+  
+  .styled-table thead th {
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .styled-table tbody td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .styled-table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  

@@ -1,0 +1,161 @@
+  
+  .FormComponentHolder{
+    display: flex;
+    justify-content: center;
+    /* margin-top: 10%; */
+    width: 100%;
+    /* border: 2px solid black; */
+
+
+
+}
+
+.FormComponent{
+margin-left: 14%;
+width: 100%;
+justify-content: center;
+/* background-color: white; */
+/* opacity: 0.8; */
+/* border: 2px solid #ccc; */
+border-radius: 8px;
+}
+
+h5{
+margin-left: 24%;
+}
+
+/* .form-background-blur{
+background-color: whitesmoke;
+opacity: 1;
+} */
+
+.adjustRadioElements{
+margin-top: 5px;
+max-width: fit-content;
+}
+
+.errorMsg {
+max-width: 330px;
+color: #f21e08;
+padding: 2px 0;
+margin-top: 1.5px;
+margin-left: 15px;
+font-size: 14px;
+font-weight: 300;
+}
+
+.success-msg {
+color: #7ca936;
+}
+
+.form-control {
+display: flex;
+flex-direction: row;
+margin-bottom: 10px;
+}
+
+.form-control label {
+width: 20%;
+padding-right: 0px;
+margin-bottom: 5px;
+color: black;
+}
+
+.form-control input[type="text"],
+.form-control input[type="password"] {
+width: 30%;
+padding: 7px;
+border-radius: 8px;
+border: 2px solid #ccc;
+outline: none;
+}
+
+
+.space-under-1{
+margin-bottom: 3%;
+}
+
+.delete-button {
+width: 125px;
+height: 33px;
+padding: 5px 10px;
+margin-top: 25px;
+margin-left: 270px;
+background-color: #293a5a;
+color: white;
+border-radius:7px;
+border: 1px solid #ccc;
+transition: transform 0.2s ease;
+
+/* border: 3px solid red; */
+
+}
+
+
+
+.delete-button:hover{
+background-color: #3e5e9e;
+transform: scale(1.05);
+cursor: pointer;
+
+}
+
+
+.home-button-adjust-delete-book-page{
+  width: 125px;
+height: 33px;
+padding: 5px 10px;
+margin-top: 25px;
+margin-left: 700px;
+background-color: #293a5a;
+color: white;
+border-radius:7px;
+border: 1px solid #ccc;
+transition: transform 0.2s ease;
+
+}
+
+.home-button-adjust-delete-book-page:hover{
+  background-color: #3e5e9e;
+transform: scale(1.05);
+cursor: pointer;
+}
+
+
+.delete-logout-button{
+  width: 125px;
+  height: 33px;
+  padding: 5px 10px;
+  margin-top: 25px;
+  background-color: #293a5a;
+  color: white;
+  border-radius:7px;
+  border: 1px solid #ccc;
+  transition: transform 0.2s ease;
+}
+
+
+.delete-logout-button:hover{
+  background-color: #3e5e9e;
+transform: scale(1.05);
+cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+body {
+  width: 90%;
+}
+
+.errorMsg {
+  max-width: 100%;
+}
+
+.form-control {
+  flex-direction: row;
+}
+
+.form-control input[type="text"],
+.form-control input[type="password"] {
+  width: inherit;
+}
+}

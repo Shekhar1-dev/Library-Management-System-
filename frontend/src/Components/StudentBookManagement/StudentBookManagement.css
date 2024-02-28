@@ -1,0 +1,58 @@
+.book-image{
+    width: 1350px;
+    height: 500px;
+    float: right;
+    margin-top: 50px;
+    /* border: 2px solid black; */
+}
+
+.student-book-management{
+    display: flex;
+    /* border: 2px solid black; */
+    justify-content: center;
+    align-items: center;
+}
+
+.sbm-button {
+    width: 11%;
+    height: 38px;
+    background-color: #293a5a;
+    color: white;
+    border-radius:7px;
+    border: 1px solid #ccc;
+    transition: transform 0.2s ease;
+    margin-right: 30px;
+    
+    /* border: 3px solid green; */
+    
+    }
+    
+    .sbm-button:hover{
+    background-color: #3e5e9e;
+    transform: scale(1.05);
+    cursor: pointer;
+    
+    }
+
+
+    .sbm-logout-button {
+        margin-left: 80px;
+        width: 125px;
+        height: 38px;
+        background-color: #293a5a;
+        color: white;
+        border-radius:7px;
+        border: 1px solid #ccc;
+        transition: transform 0.2s ease;
+        margin-right: 30px;
+        
+        /* border: 3px solid red; */
+        
+        }
+        
+        .sbm-logout-button:hover{
+        background-color: #3e5e9e;
+        transform: scale(1.05);
+        cursor: pointer;
+        
+        }

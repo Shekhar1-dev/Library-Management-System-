@@ -1,0 +1,55 @@
+.body-background-1 {
+    background-image: url(reception_bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    backdrop-filter: blur(0px);
+    /* background-position-y:top; */
+    /* filter: blur(5px); */
+    height: 100vh;
+  }
+
+  .body-background-2 {
+    background-color: azure;
+   
+  }
+
+  .LandingPage{
+    color: black;
+    border: 2px salmon;
+  }
+  .StudentRegisterPage{
+    color: black;
+    border: 2px salmon;
+  }
+
+  .LandingPage-background {
+    /* background-image: url(landing-page.jpg); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    backdrop-filter: blur(3px);
+    /* background-position-y:top; */
+    /* filter: blur(5px); */
+    height: 100vh;
+  }
+
+  h1{
+    text-align: center;
+    color: black;
+    /* margin-right: 50px; */
+    width: 85%;
+  }
+
+
+.logo-adjust{
+    width: 8%;
+    /* border: 2px solid black; */
+}
+
+.adjust-header{
+  display: flex;
+  /* background-color: azure; */
+
+}
+  
+
+  

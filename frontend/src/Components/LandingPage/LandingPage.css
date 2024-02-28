@@ -1,0 +1,135 @@
+  
+  .FormComponentHolder1{
+    display: flex;
+    justify-content: center;
+    /* margin-top: 10%; */
+    width: 100%;
+    /* border: 2px solid red; */
+
+
+}
+
+.FormComponent1{
+/* margin-left: 5%; */
+width:70%;
+justify-content: center;
+opacity: 0.9;
+/* border: 2px solid blue; */
+border-radius: 25px;
+display: flex;
+background-color: whitesmoke;
+border-bottom: 8.5px solid #ccc;
+
+
+}
+
+
+.adjustRadioElements{
+margin-top: 5px;
+max-width: fit-content;
+}
+
+.errorMsg {
+max-width: 330px;
+color: #f21e08;
+padding: 2px 0;
+margin-top: 1.5px;
+margin-left: 15px;
+font-size: 14px;
+font-weight: 300;
+}
+
+.success-msg {
+color: #7ca936;
+}
+
+.form-control1-student-area {
+display: flex;
+flex-direction: column;
+margin-bottom: 10px;
+width: 45%;
+justify-content: center;
+align-items: center;
+text-align: center;
+/* border: 2px solid red; */
+}
+
+.form-control2-student-area {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    width: 45%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-left: 1.5px solid #ccc;
+    /* border: 2px solid green; */
+    }
+
+    .form-control2-student-area label {
+        /* width: 40%; */
+        padding-right: 0px;
+        margin-bottom: 5px;
+        margin-left: 20px;
+        color: black;
+        }
+
+.form-control1-student-area label {
+width: 40%;
+padding-right: 0px;
+margin-bottom: 5px;
+color: black;
+}
+
+.form-control1-student-area input[type="text"],
+.form-control1-student-area input[type="password"] {
+width: 30%;
+padding: 7px;
+border-radius: 8px;
+border: 2px solid #ccc;
+outline: none;
+}
+
+.landing-submit-button {
+width: 125px;
+height: 33px;
+background-color: #26385c;
+color: white;
+border-radius:7px;
+border: 1px solid #ccc;
+transition: transform 0.2s ease;
+margin-left: 0;
+
+/* border: 3px solid red; */
+
+}
+
+.landing-submit-button:hover{
+background-color: #33528f;
+transform: scale(1.05);
+cursor: pointer;
+
+}
+
+@media screen and (max-width: 600px) {
+body {
+  width: 90%;
+}
+
+.errorMsg {
+  max-width: 100%;
+}
+
+.form-control1-student-area {
+  flex-direction: row;
+}
+
+.form-control2-student-area{
+    flex-direction: row;
+}
+
+.form-control1-student-area input[type="text"],
+.form-control1-student-area input[type="password"] {
+  width: inherit;
+}
+}

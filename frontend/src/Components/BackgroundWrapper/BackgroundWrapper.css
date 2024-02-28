@@ -1,0 +1,37 @@
+.body-background {
+    background-image: url(reception_bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    backdrop-filter: blur(0px);
+    /* background-position-y:top; */
+    /* filter: blur(5px); */
+    height: 100vh;
+  }
+
+  .LandingPage{
+    color: whitesmoke;
+    border: 2px salmon;
+  }
+  .StudentRegisterPage{
+    color: black;
+    border: 2px salmon;
+  }
+
+  .LandingPage-background {
+    background-image: url(landing-page.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    backdrop-filter: blur(3px);
+    /* background-position-y:top; */
+    /* filter: blur(5px); */
+    height: 100vh;
+  }
+
+  h1{
+    text-align: center;
+    color: black;
+    margin-right: 50px;
+  }
+  
+
+  
